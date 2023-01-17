@@ -1,3 +1,32 @@
+header{
+    background-color: #BBBBBB;
+    padding: 5rem 0;
+}
+
+nav{
+    position: absolute;
+    right: 0;
+
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #C78C18;
+    text-decoration: underline;
+}    
+
 p{
     text-align: center;
 }
@@ -6,13 +35,19 @@ em b{
     color: red;
 }
 
+.caixa{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
 .titulo--principal{
     padding-left: 20px;
 }
 
 .titulo--centralizado{
     text-align: center;
-    border: 5px solid #000000;
+
     border-radius: 10%;
 }
 
