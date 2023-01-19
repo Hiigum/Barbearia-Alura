@@ -1,50 +1,3 @@
-header{
-    background-color: #BBBBBB;
-
-}
-
-nav{
-    position: absolute;
-    top: 2.90rem;
-    right:0;
-}
-
-nav li{
-    display: inline;
-    margin: 0 0 0 15px;
-}
-
-nav a{
-    text-transform: uppercase;
-    color: #000000;
-    font-weight: bold;
-    font-size: 22px;
-    text-decoration: none;
-}
-
-nav a:hover{
-    color: #C78C18;
-    text-decoration: underline;
-}
-
-.img--nav{
-    height: 100px;
-}
-
-.titulo--principal{
-    padding: 0 0 0 5rem;
-    font-size: 36px;
-    position: absolute;
-    font-weight: bold;
-    top: 2.20rem;
-}
-
-.caixa{
-    width: 940px;
-    height: 6.5rem;
-    position: relative;
-    margin: 0 auto;
-}
 
 .produtos{
     width: 940px;
@@ -89,17 +42,5 @@ nav a:hover{
     font-size: 22px;
     font-weight: bold;
     margin: 10px 0 0;
-}
-
-footer{
-    text-align: center;
-    background: url("IMG/bg.jpg");
-    padding: 40px 0;
-}
-
-.copyright{
-    color: #FFFFFF;
-    font-size: 13px;
-    margin: 20px 0 0;
 }
 

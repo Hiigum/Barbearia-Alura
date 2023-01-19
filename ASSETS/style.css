@@ -7,6 +7,7 @@
     --fonte-secundaria: 'Lobster', cursive;
 }
 
+/* Navbar e Footer */
 
 header{
     background-color:var(--cor-primaria);
@@ -35,7 +36,21 @@ nav a{
 nav a:hover{
     color: var(--cor-hover);
     text-decoration: underline;
-}    
+}
+
+footer{
+    text-align: center;
+    background: url("IMG/bg.jpg");
+    padding: 40px 0;
+}
+
+.copyright{
+    color: var(--cor-terciaria);
+    font-size: 13px;
+    margin: 20px 0 0;
+}
+
+/*-------------------------------------------------------*/
 
 p{
     text-align: center;
@@ -113,18 +128,6 @@ em b{
 
 .img--beneficios{
     width: 50%;
-}
-
-footer{
-    text-align: center;
-    background: url("IMG/bg.jpg");
-    padding: 40px 0;
-}
-
-.copyright{
-    color: var(--cor-terciaria);
-    font-size: 13px;
-    margin: 20px 0 0;
 }
 
 .beneficios{
