@@ -1,11 +1,11 @@
 header{
     background-color: #BBBBBB;
-    padding: 20px 0;
+
 }
 
 nav{
     position: absolute;
-    top: 120px;
+    top: 2.90rem;
     right:0;
 }
 
@@ -27,8 +27,21 @@ nav a:hover{
     text-decoration: underline;
 }
 
+.img--nav{
+    height: 100px;
+}
+
+.titulo--principal{
+    padding: 0 0 0 5rem;
+    font-size: 36px;
+    position: absolute;
+    font-weight: bold;
+    top: 2.20rem;
+}
+
 .caixa{
     width: 940px;
+    height: 6.5rem;
     position: relative;
     margin: 0 auto;
 }
