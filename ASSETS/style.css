@@ -6,7 +6,7 @@ header{
 nav{
     position: absolute;
     right: 0;
-    top: 3.25rem;
+    top: 2.90rem;
 }
 
 nav ul li{
@@ -52,7 +52,7 @@ em b{
     font-size: 36px;
     position: absolute;
     font-weight: bold;
-    top: 2.60rem;
+    top: 2.20rem;
 }
 
 .titulo--centralizado{
@@ -66,10 +66,16 @@ em b{
     text-align: center;
     font-size: 36px;
     font-weight: bold;
+    margin: 25px 0 0 0;
 }
 
 .missao{
     font-size: 20px;
+}
+
+.italico--missao{
+    font-style: italic;
+    font-weight: bold;
 }
 
 .img--banner{
@@ -108,4 +114,46 @@ footer{
     color: #FFFFFF;
     font-size: 13px;
     margin: 20px 0 0;
+}
+
+.beneficios{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.beneficios li{
+    display: inline-block;
+    text-align: center;
+    width: 45%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 3.5px solid #000000;
+    border-radius: 5%;
+    margin-bottom: 30px;
+}
+
+.beneficios li h3{
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.tamanho--beneficios--img{
+    padding: 10px 0;
+    width: 300px;
+    height: 200px;
+}
+
+.beneficios li:hover{
+    border-color: #C78C18;
+}
+
+.beneficios li:hover h3{
+    font-size: 30px;
+}
+
+.beneficios li:active{
+    border-color: #C78C18;
 }
