@@ -17,7 +17,7 @@
 
     <header>
         <div class="caixa">
-            <img class="img--nav" src="assets/IMG/logo.png" alt="">
+            <img class="img--nav" src="assets/IMG/logo-branco.png" alt="">
             <h1 class="titulo--principal">Barbearia Alura</h1>
             <nav>
                 <ul>
@@ -30,7 +30,37 @@
     </header>
 
     <main>
-        
+        <div>
+            <form action="">
+                <label for="nome-sobrenome">Nome e Sobrenome</label>
+                <input type="text" name="" id="nome-sobrenome" class="input-padrao">
+
+                <label for="email">Email</label>
+                <input type="text" name="" id="email" class="input-padrao">
+
+                <label for="telefone">Telefone</label>
+                <input type="text" name="" id="telefone" class="input-padrao">
+
+                <label for="mensagem">Mensagem</label>
+                <textarea name="" id="mensagem" cols="30" rows="10" class="input-padrao"></textarea>
+
+                <div class="contato">
+                    <p>Como preferre o nosso contato?</p>
+                    <label for="radio-email"><input type="radio" name="contato" value="Email" id="radio-email">
+                        Email</label>
+
+                    <label for="radio-telefone"><input type="radio" name="contato" value="Telefone" id="radio-telefone">
+                        Telefone</label>
+
+                    <label for="radio-whatsapp"><input type="radio" name="contato" value="Whatsapp" id="radio-whatsapp">
+                        Whatsapp</label>
+                </div>
+
+                <label class="checkbox"><input type="checkbox">Gostaria de receber nossas novidades por email?</label>
+
+                <input type="submit" value="Enviar Formulário">
+            </form>
+        </div>
     </main>
 
     <footer>

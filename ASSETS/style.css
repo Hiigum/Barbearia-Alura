@@ -10,7 +10,7 @@
 /* Navbar e Footer */
 
 header{
-    background-color:var(--cor-primaria);
+    background-color:var(--cor-secundaria);
 
 }
 
@@ -27,7 +27,7 @@ nav ul li{
 
 nav a{
     text-transform: uppercase;
-    color: var(--cor-secundaria);
+    color: var(--cor-terciaria);
     font-weight: bold;
     font-size: 22px;
     text-decoration: none;
@@ -36,6 +36,15 @@ nav a{
 nav a:hover{
     color: var(--cor-hover);
     text-decoration: underline;
+}
+
+.titulo--principal{
+    padding: 0 0 0 5rem;
+    font-size: 36px;
+    position: absolute;
+    font-weight: bold;
+    top: 2.20rem;
+    color: var(--cor-terciaria);
 }
 
 footer{
@@ -52,7 +61,7 @@ footer{
 
 /*-------------------------------------------------------*/
 
-p{
+.p-centro{
     text-align: center;
     padding-bottom: 5px;
 }
@@ -72,13 +81,6 @@ em b{
     margin: 0 auto;
 }
 
-.titulo--principal{
-    padding: 0 0 0 5rem;
-    font-size: 36px;
-    position: absolute;
-    font-weight: bold;
-    top: 2.20rem;
-}
 
 .titulo--centralizado{
     text-align: center;
