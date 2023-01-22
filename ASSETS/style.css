@@ -5,9 +5,14 @@
     --cor-hover: #C78C18;
     --fonte-principal: 'Questrial', sans-serif;
     --fonte-secundaria: 'Lobster', cursive;
+    --fonte-terciaria: 'Montserrat', sans-serif;
 }
 
 /* Navbar e Footer */
+
+body{
+    font-family: var(--fonte-terciaria);
+}
 
 header{
     background-color:var(--cor-secundaria);
@@ -62,8 +67,14 @@ footer{
 /*-------------------------------------------------------*/
 
 .p-centro{
-    text-align: center;
-    padding-bottom: 5px;
+    margin: 0 0 1em;
+
+}
+
+.utensilios{
+    width: 130px;
+    float: left;
+    margin: 0 20px 20px;
 }
 
 em b{
@@ -86,7 +97,7 @@ em b{
     text-align: center;
     font-size: 46px;
     font-weight: bold;
-    padding-bottom: 5px;
+    padding-bottom: 3rem;
     font-family: var(--fonte-secundaria)
 }
 
@@ -95,6 +106,7 @@ em b{
     font-size: 36px;
     font-weight: bold;
     margin: 25px 0 0 0;
+    
 }
 
 .missao{
@@ -120,7 +132,8 @@ em b{
 }
 
 .fundo--principal{
-
+    width: 940px;
+    margin: 0 auto;
     padding: 30px;
 }
 
