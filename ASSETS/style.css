@@ -2,6 +2,7 @@
     --cor-primaria: #BBBBBB;
     --cor-secundaria: #000000;
     --cor-terciaria: #FFFFFF;
+    --cor-quatro: #888888;
     --cor-hover: #C78C18;
     --fonte-principal: 'Questrial', sans-serif;
     --fonte-secundaria: 'Lobster', cursive;
@@ -21,7 +22,7 @@ header{
 
 nav{
     position: absolute;
-    right: 0;
+    right: 8rem;
     top: 2.90rem;
 }
 
@@ -50,6 +51,7 @@ nav a:hover{
     font-weight: bold;
     top: 2.20rem;
     color: var(--cor-terciaria);
+    margin-left: 14rem;
 }
 
 footer{
@@ -83,12 +85,11 @@ em b{
 
 .img--nav{
     height: 100px;
+    margin-left: 14rem;
 }
 
 .caixa{
     width: 940px;
-    height: 6.5rem;
-    position: relative;
     margin: 0 auto;
 }
 
@@ -105,8 +106,6 @@ em b{
     text-align: center;
     font-size: 36px;
     font-weight: bold;
-    margin: 25px 0 0 0;
-    
 }
 
 .missao{
@@ -138,7 +137,7 @@ em b{
 }
 
 .fundo--beneficios{
-    background-color: var(--cor-terciaria);
+    background: var(--cor-quatro);
 }
 
 .img--beneficios{
@@ -148,7 +147,7 @@ em b{
 .beneficios{
     width: 940px;
     margin: 0 auto;
-    padding: 50px 0;
+    padding: 50px auto;
 }
 
 .beneficios li{
@@ -185,4 +184,18 @@ em b{
 
 .beneficios li:active{
     border-color: var(--cor-hover);
+}
+
+.mapa{
+    padding: 3em 0;
+    background: linear-gradient(var(--cor-terciaria), var(--cor-quatro));
+}
+
+.mapa p{
+    margin: 0 0 2em;
+    text-align: center;
+}
+
+.video{
+    margin: 1em auto;
 }
